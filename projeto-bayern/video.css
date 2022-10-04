@@ -1,0 +1,52 @@
+
+
+body {
+    background-image: url('200309_choreo_duc.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.589);
+    font-size: 45px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+header > a {
+    margin-left: 30px;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(255, 0, 0, 0.514);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+header > a:hover {
+    background-color: red;
+    color: black;
+}
+
+iframe {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+nav > legend {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.61);
+}
+
