@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+    <section class="container">
+        <form id="forms">
+            <h1 id="titulo">Lembrete</h1>
+            <div class="msg"></div>
+            <div>
+                <label for="tarefa">Tarefa: </label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="horario">Horário: </label>
+                <input type="text" id="horario">
+            </div>
+            <input type="button" value="Enviar" class="botao">
+        </form>
+        <ul id="tarefas"></ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
