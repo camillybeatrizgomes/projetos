@@ -5,7 +5,7 @@
 
 body {
     background-image: url('fundo-sem-emenda-do-teste-padrão-da-repetição-das-borboletas-do-rosa.jpg');
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -15,8 +15,8 @@ header {
     border: 11px solid white;
     border-radius: 20px 3px;
     text-align: center;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-top: 30px;
     padding: 20px;
     box-shadow: 3px 3px 1px #00000062;
@@ -62,4 +62,5 @@ footer {
     text-align: center;
     padding: 5px;
     font-size: 20px;
+    background-attachment: fixed;
 }
