@@ -5,17 +5,17 @@
 
 body {
     background-image: url('fundo-sem-emenda-do-teste-padrão-da-repetição-das-borboletas-do-rosa.jpg');
-    background-attachment: fixed;
-    color: black;
+    background-attachment: scroll;
+    display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1000px;
-    min-width: 500px;
 }
 
 header {
     border: 11px solid white;
     border-radius: 20px 3px;
     text-align: center;
+    color: black;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 30px;
@@ -39,7 +39,7 @@ img {
     border: 8px solid white;
     outline: 5px rgba(0, 0, 0, 0.308) solid;
     border-radius: 8px;
-  /*  margin-left: 80px;*/
+    margin-left: 40px;
 }
 /*
 .foto1, .foto3 ,.foto5{
