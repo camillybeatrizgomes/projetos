@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(255, 255, 49, 0.658);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    
+    background-image: url('CAMISA-BRASIL-NOVA.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    height: 29rem;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.363) 2px 2px 1px;
+}
+
+#estrelas{    
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.s1, .s2 ,.s3, .s4,.s5{
+    padding-right: 10px;
+}
+
+a {
+    font-size: 19px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background-color: rgba(255, 255, 0, 0.267);
+}
+
+nav {
+    border-radius: 5px 1px;
+    margin-top: -2rem;
+    margin-left: 12px;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 0, 0.438);
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+div img {
+    border-radius: 40px;
+    width: 21rem;
+    height: 26.9rem;
+    display: flex; 
+    justify-content: flex-start; 
+    float: left;
+    padding-right: 10px;
+    /*margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 15px; */
+    padding-bottom: 1rem;
+}
+
+div {
+    margin-top: 3rem;
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 3rem;
+}
+
+.texto {
+    text-indent: 20px;
+    border-radius: 10px;
+    
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+legend {
+    background-color: yellow;
+    padding: 1rem;
+    font-size: 14px;
+    border-radius: 70px 40px 40px 0px;
+}
+
+footer p {
+    background-color: yellow;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1rem;
+    padding: 5px;
+}
+
