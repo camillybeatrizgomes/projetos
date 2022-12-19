@@ -9,11 +9,10 @@ body {
 }
 
 header {
-    
     background-image: url('CAMISA-BRASIL-NOVA.jpg');
     background-position: center bottom;
     background-size: cover;
-    height: 29rem;
+    height: 33rem;
     border-radius: 0px 0px 15px 15px;
     box-shadow: rgba(0, 0, 0, 0.363) 2px 2px 1px;
 }
@@ -22,7 +21,7 @@ header {
     font-size: 22px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    padding-top: 10px;
+    /*padding-top: 10px;*/
     padding-bottom: 10px;
 }
 
@@ -99,4 +98,3 @@ footer p {
     margin-top: 1rem;
     padding: 5px;
 }
-
