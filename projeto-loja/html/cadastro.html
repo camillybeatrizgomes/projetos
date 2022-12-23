@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+
+</head>
+<body>
+    <div id="conteudo">
+        <header>
+            <h1>Cadastrar</h1>
+        </header>
+        <div id="forms">
+            <form id="form">
+                <div class="inputNome">
+                    <input type="text" placeholder="Nome completo" required>
+                </div>
+                <div class="inputData">
+                    <input type="date" required>
+                </div>
+                <div class="inputEmail">
+                    <input type="email" placeholder="user@exemplo.com" required>
+                </div>
+                <div class="inputSenha">
+                    <input type="password" id="inputSenha" placeholder="Crie uma senha" required minlength="6">
+                </div>
+                <div class="inputConfir">
+                    <input type="password" id="inputConfir" placeholder="Confirme sua senha" required minlength="6">
+                </div>
+                <button type="submit" id="button">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        var inputSenha = document.getElementById('inputSenha')
+        var inputConfir = document.getElementById('inputConfir')
+
+    function cadastrar(){
+        if(inputSenha.value != inputConfir.value){
+        inputConfir.setCustomValidity('Senha incorreta')
+    } else {
+        inputConfir.setCustomValidity('')
+    }
+}
+
+inputSenha.onchange = cadastrar;
+inputConfir.onkeyup = cadastrar;
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
