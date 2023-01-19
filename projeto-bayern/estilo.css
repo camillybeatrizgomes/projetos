@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('200309_choreo_duc.jpg');
+    background-image: url('wallpaper-bayern.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -15,7 +15,7 @@ body {
 h1 {
     margin-top: 160px;
     text-align: center;
-    color: rgba(2, 2, 2, 0.534);
+    color: rgba(2, 2, 2, 0.664);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 110px;
 }
