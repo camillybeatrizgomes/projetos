@@ -11,7 +11,6 @@ body {
     color: aliceblue;
     margin: 10px;     
     background-attachment: fixed;
-
 }
 
 h1{
@@ -73,14 +72,20 @@ li{
     font-family: 'Quicksand', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
 #voltar{
     border-color: aliceblue;
     border-style: solid;
     border-width: 7px;
     border-radius: 5px;
     outline-width: thick;
-    width: 9%;
-    height: 10%;
+    /*width: 9%;
+    height: 10%;*/
+    margin: 10px;
     outline-width: 20px;
     font-size: 22px;
     text-align: center;
@@ -95,4 +100,8 @@ iframe{
     display: block;
     margin-left: auto;
     margin-right: auto;
+ }
+
+ img, iframe {
+    max-width: 460px;
  }
