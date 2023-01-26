@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url('200309_choreo_duc.jpg');
+    background-image: url('wallpaper-bayern.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -10,10 +10,12 @@ body {
 
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgba(0, 0, 0, 0.589);
+    color: rgba(252, 252, 252, 0.733);
+    background-color: rgba(255, 0, 0, 0.521);
+    border-radius: 15px 2px;
     font-size: 45px;
-    margin-top: 5px;
-    margin-bottom: 25px;
+    /*margin-top: 5px;
+    margin-bottom: 25px;*/
     text-align: center;
 }
 
@@ -24,7 +26,7 @@ header > a {
     border-radius: 8px;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgba(255, 0, 0, 0.514);
+    background-color: rgba(255, 0, 0, 0.521);
     text-decoration: none;
     font-weight: bold;
     transition: 0.5s;
@@ -47,6 +49,6 @@ nav > legend {
     margin-left: 30px;
     margin-right: 30px;
     padding: 10px;
-    background-color: rgba(255, 0, 0, 0.61);
+    background-color: rgba(255, 0, 0, 0.521);
 }
 
