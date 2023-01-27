@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('capa-fifa23.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 39rem;
+}
+
+header > h1 {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+main {
+    background-color: black;
+    color: white;
+    padding-top: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    max-width: 17rem;
+}
+
+main {
+    padding-bottom: 7rem;
+}
+
+main > h2 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2.5rem;
+}
+
+div {
+    display: inline-block;
+    margin-left: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+div > p {
+    font-size: 25px;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div > img {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 2px 2px black;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+footer a:hover {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
