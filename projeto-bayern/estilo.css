@@ -27,6 +27,7 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     background-color: rgba(255, 0, 0, 0.295);
+    background-size: cover;
     padding: 25px;
 }
 
