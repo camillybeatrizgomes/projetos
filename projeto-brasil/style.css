@@ -98,4 +98,5 @@ footer p {
     font-size: 18px;
     margin-top: 3rem;
     padding: 5px;
+    background-attachment: fixed;
 }
