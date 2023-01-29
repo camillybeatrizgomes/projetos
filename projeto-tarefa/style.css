@@ -24,18 +24,18 @@ form > h1 {
 form {
     background-color: white;
     color: black;
-    margin-top: 30px;
     padding: 30px;
    /* margin-left: 350px;
     margin-right: 350px; */
     font-size: 20px;
     border-radius: 10px;
+    max-width: 18rem;
+    margin: auto;
 }
 
 input {
-    padding: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     font-size: 18px;
 }
 
@@ -47,11 +47,11 @@ input {
     color: white;
     padding: 5px;
 }
-
+/*
 #horario {
     margin-top: 25px;
 }
-
+*/
 .botao {
     margin-top: 30px;
     padding: 5px;
@@ -80,4 +80,12 @@ li {
     font-size: 20px;
     border-radius: 10px;
     padding: 5px;
+}
+
+div {
+    padding: 10px;
+}
+
+section {
+    margin-top: 1rem;
 }

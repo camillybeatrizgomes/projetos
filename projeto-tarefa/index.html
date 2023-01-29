@@ -17,11 +17,11 @@
             <div class="msg"></div>
             <div>
                 <label for="tarefa">Tarefa: </label>
-                <input type="text" id="name">
+                <input type="text" id="name" required>
             </div>
             <div>
                 <label for="horario">horário: </label>
-                <input type="text" pattern="([0-3]{1})([0-9]{1})\/([0-1]{1})([0-9]{1})\/([1-2]{1})([0-9]{3})?\s\-\s$" title="Digite em formato de data: 00/00/0000" id="horario">
+                <input type="text" pattern="([0-3]{1})([0-9]{1})\/([0-1]{1})([0-9]{1})\/([1-2]{1})([0-9]{3})?\s\-\s$" title="Digite em formato de data: 00/00/0000" id="horario" required>
             </div>
             <input type="button" value="Enviar" class="botao">
         </form>
