@@ -29,14 +29,15 @@ form {
     margin-right: 350px; */
     font-size: 20px;
     border-radius: 10px;
-    max-width: 18rem;
+    max-width: 21rem;
+    min-width: 15rem;
     margin: auto;
 }
 
 input {
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 18px;
+    /*padding-left: 40px;
+    padding-right: 40px;*/
+    font-size: 20px;
 }
 
 #titulo {
