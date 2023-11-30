@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+div {
+    text-align: center;
+    margin: 15%;
+}
+
+button {
+    margin: 8px;
+    padding: 10px 20px 10px 20px;
+    font-size: 22px;
+    border-radius: 2px 7px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.iniciar {
+    background-color: rgb(61, 172, 61);
+}
+
+.pausar {
+    background-color: rgb(252, 47, 47);
+}
+
+.reiniciar {
+    background-color: rgb(240, 240, 39);
+}
+
+div > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2rem;
+    font-size: 3rem;
+}
