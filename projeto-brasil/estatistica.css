@@ -5,7 +5,7 @@ body {
 
 h1 {
     text-align: center;
-    color: rgb(11, 73, 11);
+    color: rgb(3, 150, 3);
 }
 header > a {
     text-decoration: none;
@@ -35,4 +35,8 @@ main {
 ul, h3 {
     display: inline-block;
     padding-right: 2rem;
+}
+
+h2 {
+    color: rgb(53, 53, 88);
 }
