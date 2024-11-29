@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +39,8 @@ main {
 
 main > h2 {
     font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
     padding: 2.5rem;
 }
 
@@ -50,7 +53,7 @@ div {
 div > p {
     font-size: 25px;
     padding: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Audiowide", sans-serif;
 }
 div > img {
     padding: 1rem;
@@ -69,7 +72,7 @@ footer {
 footer a {
     text-decoration: none;
     color: black;
-    display: inline-block;
+    transition: .3s;
 }
 
 footer a:hover {
@@ -77,4 +80,13 @@ footer a:hover {
     color: white;
     padding: 3px;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

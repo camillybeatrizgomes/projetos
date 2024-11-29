@@ -35,27 +35,59 @@ h2 {
     color: rgb(53, 53, 88);
 }
 
+.img {
+    display: flex; 
+    justify-content: flex-start; 
+    float: left;
+}
+
+.copa-mundo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 20%;
+}
+
 li {
     padding: 5px;
 }
 
 .copa-mundo > ol {
     list-style: '\1F3C6';
-    margin-left: 8rem;
-    margin-top: -10.3rem;
+    /* display: inline-block;
+    vertical-align: top;
+    width: 20%; */
 }
 
 .copa-america > ol {
     list-style: '\1F3C6';
-    margin-left: 8rem;
-    margin-top: -10.3rem;
+    /* margin-left: 8rem;
+    margin-top: -10.3rem; */
     columns: 2;
+}
+
+.copa-america {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 35%;
+}
+
+.copa-america ol li {
+    margin-left: 70px;
 }
 
 .copa-confederacao > ol {
     list-style: '\1F3C6';
-    margin-left: 8rem;
-    margin-top: -9rem;
+    /* margin-left: 8rem;
+    margin-top: -9rem; */
+}
+
+.copa-confederacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 20%;
 }
 
 .jogos-olimpicos {
@@ -72,4 +104,11 @@ li {
 
 .bronze {
     list-style: '\01F949';
+}
+
+@media (max-width: 768px) {
+    .copa-america ol li {
+        width: 0;
+        margin-left: 60px;
+    }
 }
