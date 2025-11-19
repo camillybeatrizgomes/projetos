@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MegaFlix — Locadora</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">🎬 MegaFlix</h1>
+      <!-- MENU DESKTOP -->
+      <nav class="navbar" id="navbar">
+        <ul class="nav-list">
+          <li><a href="#acao">Ação</a></li>
+          <li><a href="#fantasia">Fantasia</a></li>
+          <li><a href="#aventura">Aventura</a></li>
+          <li><a href="#romance">Romance</a></li>
+          <li><a href="#animacao">Animação</a></li>
+        </ul>
+      </nav>
+
+      <!-- BOTÃO HAMBÚRGUER (MOBILE) -->
+      <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menu">
+        ☰
+      </button>
+      <button id="themeToggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+    </div>
+  </header>
+
+  <!-- MENU MOBILE DROPDOWN -->
+  <nav class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#acao">Ação</a></li>
+      <li><a href="#fantasia">Fantasia</a></li>
+      <li><a href="#aventura">Aventura</a></li>
+      <li><a href="#romance">Romance</a></li>
+      <li><a href="#animacao">Animação</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- CARROSSEL HERO -->
+    <section id="hero" class="hero">
+    <div class="hero-content container">
+
+      <button class="hero-arrow left" id="prevBtn" aria-label="Filme anterior">‹</button>
+
+      <div class="hero-card" role="group" aria-roledescription="carrossel de filmes">
+        <!-- imagem principal -->
+        <img id="heroPoster" src="" alt="Poster do filme">
+        <!-- overlay escuro sobre a imagem -->
+        <div class="hero-img-overlay"></div>
+        <!-- título -->
+        <h2 id="heroTitle" class="hero-title"></h2>
+      </div>
+      <button class="hero-arrow right" id="nextBtn" aria-label="Próximo filme">›</button>
+    </div>
+  </section>
+
+    <!-- CATEGORIAS / CARDS -->
+    <section class="catalog container">
+      <h2>Filmes por Categoria</h2>
+
+      <div class="category" id="acao">
+        <h3>Ação</h3>
+        <div class="cards-row">
+          <!-- card exemplo: todos tem mesma dimensão -->
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/w500/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg" alt="Missão Impossível: Efeito Fallout">
+            <div class="card-body">
+              <h4 class="card-title">Missão Impossível: Efeito Fallout</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg" alt="Vingadores: Guerra Infinita">
+            <div class="card-body">
+              <h4 class="card-title">Vingadores: Guerra Infinita</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg" alt="Matrix">
+            <div class="card-body">
+              <h4 class="card-title">Matrix: Revolutions</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/original/hJ0LGNZhgjLL6PBOKYtsbfLEQq4.jpg" alt="Deadpool & Wolverine">
+            <div class="card-body">
+              <h4 class="card-title">Deadpool & Wolverine</h4>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="category" id="fantasia">
+        <h3>Fantasia</h3>
+        <div class="cards-row">
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/w500/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg" alt="Harry Potter">
+            <div class="card-body">
+              <h4 class="card-title">Harry Potter e a Pedra Filosofal</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg" alt="O Senhor dos Anéis">
+            <div class="card-body">
+              <h4 class="card-title">O Senhor dos Anéis: A Sociedade do Anel</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg" alt="Star Wars">
+            <div class="card-body">
+              <h4 class="card-title">Star Wars — Uma Nova Esperança</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/original/qcaKkLwIXCAxJtpetVYHniCvLZj.jpg" alt="Wicked">
+            <div class="card-body">
+              <h4 class="card-title">Wicked</h4>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="category" id="aventura">
+        <h3>Aventura</h3>
+        <div class="cards-row">
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/original/4CKtfsbNqAf0uDfpLfKQyig6SDu.jpg" alt="Aquaman">
+            <div class="card-body">
+              <h4 class="card-title">Aquaman</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/original/6Y93ZylPRu6mhikLlGmjj1LuuHh.jpg" alt="Quarteto Fantástico">
+            <div class="card-body">
+              <h4 class="card-title">Quarteto Fantástico: Primeiros Passos</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/original/vdvEClt3J8sFWxyMo0Jm7JpouEo.jpg" alt="Como Treinar o Seu Dragão">
+            <div class="card-body">
+              <h4 class="card-title">Como Treinar o Seu Dragão</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/original/xeZ8oG6W60fEPf9yCjERUXiHRBF.jpg" alt="Superman">
+            <div class="card-body">
+              <h4 class="card-title">Superman</h4>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="category" id="romance">
+        <h3>Romance</h3>
+        <div class="cards-row">
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/original/iKeGoTzLXp2Q2x5aCHQnxMhEWdO.jpg" alt="Titanic">
+            <div class="card-body">
+              <h4 class="card-title">Titanic</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/original/o4ki1gYHkP6IWNdwjHvI9vzfpuC.jpg" alt="Crepúsculo">
+            <div class="card-body">
+              <h4 class="card-title">Crepúsculo</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/original/4DsfRsCxrhkHQHGLeY9m8oi9q46.jpg" alt="Cinderela">
+            <div class="card-body">
+              <h4 class="card-title">Cinderela</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/original/o5HcpI1QJ7gMPfytIFRaUCnUoPk.jpg" alt="A Noiva Cadáver">
+            <div class="card-body">
+              <h4 class="card-title">A Noiva Cadáver</h4>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="category" id="animacao">
+        <h3>Animação</h3>
+        <div class="cards-row">
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/original/rkPf3AH4DPJC1T26T8CwAjBHHvc.jpg" alt="Sing">
+            <div class="card-body">
+              <h4 class="card-title">Sing - Quem Canta Seus Males Espanta </h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/original/lHKNS35r4RTa9GO72vdadMLxoiV.jpg" alt="Divertida Mente 2">
+            <div class="card-body">
+              <h4 class="card-title">Divertida Mente 2</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/original/z8k5EhZZTLsCRF8NWjSe6snWNZg.jpg" alt="Os Incríveis">
+            <div class="card-body">
+              <h4 class="card-title">Os Incríveis</h4>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg" alt="Shrek">
+            <div class="card-body">
+              <h4 class="card-title">Shrek</h4>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 MegaFlix — Sua locadora digital favorita 🍿</p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
