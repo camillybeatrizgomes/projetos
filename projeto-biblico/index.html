@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Versículos em Imagens</title>
+
+  <!-- Fonte serif parecida com a usada no React: Georgia -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Estilo -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Ícones (Lucide) -->
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+<body>
+
+  <div class="page">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="title-box">
+        <i data-lucide="book-open" class="icon"></i>
+        <h1>Versículos em Imagens</h1>
+      </div>
+      <p class="subtitle">Palavras de fé e esperança para fortalecer seu dia</p>
+    </header>
+
+    <!-- Grid de versículos -->
+    <main class="container">
+      <div id="versiculos-grid" class="grid"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Compartilhe a Palavra de Deus ✝️</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js" defer></script>
+  <script>
+    lucide.createIcons();
+  </script>
+
+  <!-- 
+    Imagens retiradas do Unsplash (https://unsplash.com/pt-br/)
+
+    Seguindo os seguintes passos:
+    1. Abrir a imagem escolhida no Unsplash
+    2. Clicar com o botão direito na imagem
+    3. Selecionar "Abrir imagem em nova guia"
+    4. Copiar o ID da imagem (código alfanumérico após "photo-" até o "w=800&q=80") [w= largura, q= qualidade]
+
+    Obs: As imagens que foram usadas são de domínio público e gratuitas para uso.
+  -->
+</body>
+</html>
