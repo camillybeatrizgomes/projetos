@@ -197,7 +197,6 @@ body {
   position: relative;
   z-index: 1;
   object-fit: cover;
-  border-radius: 14px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.32);
   transition: box-shadow 0.3s;
   background-size: cover;
@@ -261,7 +260,6 @@ body {
   height: 100%;
   background: rgba(0, 0, 0, 0.55); /* intensidade do escurecimento */
   z-index: 2; /* aparece sobre a imagem, mas abaixo dos botões e título */
-  border-radius: 14px;
   pointer-events: none; /* não bloqueia cliques nas setas */
 }
 
