@@ -5,24 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vídeos</title>
-    <link rel="shortcut icon" href="120px-FC_Bayern_München_logo_(2017).svg.png" type="image/x-icon">
+    
+    <link rel="shortcut icon" href="images/logo-bayern.png" type="image/png">
     <link rel="stylesheet" href="video.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header>
-        <a href="index.html"><i class='bx bx-left-arrow-alt'></i> Voltar</a>
+
+    <div class="overlay"></div>
+
+    <header class="topo">
+        <a href="index.html" class="voltar"><i class='bx bx-left-arrow-alt'></i> Voltar</a>
         <h1>Vídeos de Jogos Históricos na Champions</h1>
     </header>
-    <nav>
-        <iframe width="390" height="215" src="https://www.youtube.com/embed/8Ql77yRap-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <legend>Final da Champions 2019/20 contra o PSG.</legend>
-        <iframe width="390" height="215" src="https://www.youtube.com/embed/D6uf_-6nqFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <legend>Oitavas de Final da Champions League 2015/16 contra a Juventus. Depois de empatar o jogo de ida em 2x2, os alemães conquistaram a classificação para as quartas de final na prorrogação, com uma virada dramática.</legend>
-        <iframe width="390" height="215" src="https://www.youtube.com/embed/COCJrHJTgzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <legend>Bayern de Munique aplica goleada histórica no Barcelona nas quartas de final da Champions League 2019/20.</legend>
-        <iframe width="390" height="215" src="https://www.youtube.com/embed/jWm5cxkR4wU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <legend>Bayern de Munique goleia a Roma pelas oitavas de final da Champions League 2016/17.</legend>
-    </nav>
+
+    <main class="videos-container">
+
+        <div class="card">
+            <div class="video-box">
+                <iframe src="https://www.youtube.com/embed/8Ql77yRap-Q" allowfullscreen></iframe>
+            </div>
+            <p class="desc">Final da Champions 2019/20 contra o PSG.</p>
+        </div>
+
+        <div class="card">
+            <div class="video-box">
+                <iframe src="https://www.youtube.com/embed/D6uf_-6nqFw" allowfullscreen></iframe>
+            </div>
+            <p class="desc">Virada histórica contra a Juventus nas oitavas de 2016.</p>
+        </div>
+
+        <div class="card">
+            <div class="video-box">
+                <iframe src="https://www.youtube.com/embed/COCJrHJTgzo" allowfullscreen></iframe>
+            </div>
+            <p class="desc">Goleada histórica sobre o Barcelona (8x2) – Champions 2019/20.</p>
+        </div>
+
+        <div class="card">
+            <div class="video-box">
+                <iframe src="https://www.youtube.com/embed/jWm5cxkR4wU" allowfullscreen></iframe>
+            </div>
+            <p class="desc">Goleada do Bayern sobre a Roma nas oitavas de 2016/17.</p>
+        </div>
+
+    </main>
+
 </body>
 </html>

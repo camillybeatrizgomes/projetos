@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><i class='bx bx-left-arrow-alt'></i> Voltar</a>
+        <a href="index.html" class="Voltar"><i class='bx bx-left-arrow-alt'></i> Voltar</a>
         <h1>Títulos da Seleção Brasileira</h1>
     </header>
     <main>
@@ -19,7 +19,7 @@
         <div class="img">
             <img src="imagens/taca-copadomundo.png" alt="Taça da Copa do Mundo" height="170" width="100">
         </div>
-        <div class="copa-mundo">
+        <div class="card-titulo">
             <ol>
                 <li>1958</li>
                 <li>1962</li>
@@ -33,7 +33,7 @@
         <div class="img">
             <img src="./imagens/taca-copaamerica.png" alt="Taça da Copa América" height="170" width="100">
         </div>
-        <div class="copa-america">
+        <div class="card-titulo">
             <ol>
                 <li>1919</li>
                 <li>1922</li>
@@ -51,7 +51,7 @@
         <div class="img">
             <img src="imagens/taca-copadasconfedaracoes.png" alt="Taça da Copa das Confederações" height="170" width="130">
         </div>
-        <div class="copa-confederacao">
+        <div class="card-titulo">
             <ol>
                 <li>1997</li>
                 <li>2005</li>
@@ -60,22 +60,41 @@
             </ol>
         </div>
         <br>
-        <h2>Jogos Olímpicos</h2>
-        <div class="jogos-olimpicos">
-            <ol class="ouro">
-                <li>2016</li>
-                <li>2022</li>
-            </ol>
-            <ol class="prata">
-                <li>1984</li>
-                <li>1988</li>
-                <li>2012</li>
-            </ol>
-            <ol class="bronze">
-                <li>1996</li>
-                <li>2008</li>
-            </ol>
+        <section class="titulos">
+        <h2 class="titulo-section">Jogos Olímpicos</h2>
+
+        <div class="medalhas-container">
+
+            <!-- OURO -->
+            <div class="medal-box ouro">
+                <h3 class="medal-title">🥇 Ouro</h3>
+                <ol>
+                    <li>2016</li>
+                    <li>2020</li>
+                </ol>
+            </div>
+
+            <!-- PRATA -->
+            <div class="medal-box prata">
+                <h3 class="medal-title">🥈 Prata</h3>
+                <ol>
+                    <li>1984</li>
+                    <li>1988</li>
+                    <li>2012</li>
+                </ol>
+            </div>
+
+            <!-- BRONZE -->
+            <div class="medal-box bronze">
+                <h3 class="medal-title">🥉 Bronze</h3>
+                <ol>
+                    <li>1996</li>
+                    <li>2008</li>
+                </ol>
+            </div>
+
         </div>
+        </section>
     </main>
 </body>
 </html>

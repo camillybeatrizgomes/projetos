@@ -1,114 +1,178 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
 body {
-    background-color: rgba(255, 255, 49, 0.658);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #F5F7FA;
+    color: #002A54;
+    padding-bottom: 2rem;
 }
 
-h1 {
+/* ===== HEADER ===== */
+header {
+    background: #002A54;
+    padding: 1.5rem 1rem;
     text-align: center;
-    color: rgb(3, 150, 3);
+    position: relative;
 }
-header > a {
+
+header h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+header a {
+    position: absolute;
+    left: 20px;
+    top: 22px;
+    background: #0A873A;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: white;
     text-decoration: none;
-    background-color: yellow;
-    color: black;
-    padding: 7px;
-    border-radius: 10px;
     font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    gap: 4px;
+    align-items: center;
 }
 
-a:hover {
-    background-color: rgba(255, 255, 0, 0.521);
-    color: black;
-    border: 1px solid black;
-    transition: 1.0s;
+header a:hover {
+    background: #0f9a43;
+    transition: 0.2s;
 }
 
+/* ===== MAIN ===== */
 main {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 40px 5px;
-    margin: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.363) 2px 2px 1px;
+    max-width: 900px;
+    margin: auto;
+    padding: 1.5rem;
 }
 
+/* ===== TITULOS DAS SEÇÕES ===== */
 h2 {
-    color: rgb(53, 53, 88);
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    color: #002A54;
+    font-weight: 600;
 }
 
+/* ====== IMAGENS CENTRALIZADAS ====== */
 .img {
-    display: flex; 
-    justify-content: flex-start; 
-    float: left;
-}
-
-.copa-mundo {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 20%;
+    justify-content: center;
+    margin: 1rem 0;
 }
 
-li {
-    padding: 5px;
+.img img {
+    filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.2));
 }
 
-.copa-mundo > ol {
-    list-style: '\1F3C6';
-    /* display: inline-block;
-    vertical-align: top;
-    width: 20%; */
+/* ====== CARD PADRÃO PARA AS LISTAS ====== */
+.card-titulo {
+    background: white;
+    padding: 1.4rem 1.2rem;
+    border-radius: 12px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-left: 6px solid #0A873A;
 }
 
-.copa-america > ol {
-    list-style: '\1F3C6';
-    /* margin-left: 8rem;
-    margin-top: -10.3rem; */
-    columns: 2;
+/* ====== LISTAS ====== */
+.card-titulo ol {
+    list-style: none;
+    padding-left: 0;
 }
 
-.copa-america {
+.card-titulo li {
+    padding: 10px;
+    background: #F5F7FA;
+    border-left: 4px solid #E9C46A;
+    margin: 6px 0;
+    border-radius: 8px;
+    font-size: 0.95rem;
+}
+
+.medalhas-container {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 35%;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0;
+    flex-wrap: wrap;
 }
 
-.copa-america ol li {
-    margin-left: 70px;
+.medal-box {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 20px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
 }
 
-.copa-confederacao > ol {
-    list-style: '\1F3C6';
-    /* margin-left: 8rem;
-    margin-top: -9rem; */
+.medal-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 
-.copa-confederacao {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 20%;
+/* Títulos */
+.medal-title {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+    font-weight: bold;
 }
 
-.jogos-olimpicos {
-    columns: 3;
-}
-
+/* Cores das medalhas */
 .ouro {
-    list-style: '\01F947';
+    border-top: 6px solid #d4af37; /* dourado */
 }
 
 .prata {
-    list-style: '\01F948';
+    border-top: 6px solid #c0c0c0;
 }
 
 .bronze {
-    list-style: '\01F949';
+    border-top: 6px solid #cd7f32;
 }
 
-@media (max-width: 768px) {
-    .copa-america ol li {
-        width: 0;
-        margin-left: 60px;
+.medal-box ol {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+.medal-box li {
+    margin: 6px 0;
+}
+
+
+@media (min-width: 350px) and (max-width: 650px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    header a {
+        position: static;
+        margin-bottom: 12px;
+        font-size: 16px;
+        align-self: flex-start;
+    }
+    header h1 {
+        font-size: 1.6rem;
+        margin-top: 0;
+        word-break: break-word;
+        text-align: center;
+        width: 100%;
+        white-space: normal;
     }
 }
+
